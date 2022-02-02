@@ -22,7 +22,7 @@
     position: absolute;
     top: 30px;
     left: 30px;
-    background-color: coral;
+    background-color: rgba(255, 127, 80, 0.267);
 }
 
 .a-card{
