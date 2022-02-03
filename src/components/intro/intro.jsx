@@ -1,5 +1,5 @@
 import './intro.css'
-import img_ME from '../../img/foto_perfil.png'
+import G from '../../img/G.png'
 
 const Intro = () => {
 
@@ -32,6 +32,11 @@ const Intro = () => {
             </svg>
 
             <div className="i-right">
+                {/* <div className='i-bg'></div> */}
+                <img src={G} alt='thisIsMe' className='i-img' />
+            </div>
+
+            {/* <div className="i-right">
                 <div className='i-bg'></div>
                 <div className='i-right-wrapper'>
                     <h2 className='i-right-intro'>Website is under</h2>
@@ -39,7 +44,7 @@ const Intro = () => {
                     <p>in the meanwhile you can contact me at guillemfd@guillemfd.com</p>
                     <p className='i-right-desc'>(please come back soon!)</p>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

@@ -11,6 +11,7 @@ const Background = () => {
       console.log(container);
     };
     return (
+      <div className='particles_wrapper'>
         <Particles
           id="tsparticles"
           init={particlesInit}
@@ -22,7 +23,7 @@ const Background = () => {
                 value: "#ffffff",
               },
             },
-            fpsLimit: 60,
+            fpsLimit: 140,
             interactivity: {
               events: {
                 onClick: {
@@ -85,13 +86,16 @@ const Background = () => {
                   enable: true,
                   area: 800,
                 },
-                value: 80,
+                value: 40,
               },
               opacity: {
                 value: 1,
               },
               shape: {
-                type: "triangle",
+                type: [
+                  "triangle",
+                  "circle",
+                ]
               },
               size: {
                 random: true,
@@ -101,6 +105,7 @@ const Background = () => {
             detectRetina: true,
           }}
         />
+      </div>
       );
     };
 

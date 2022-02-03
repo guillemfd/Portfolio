@@ -94,6 +94,12 @@
     align-items: center;
 }
 
+.i-img {
+    height: 65%;
+    position: absolute;
+    object-fit: cover;
+}
+
 /* ---------- SCROLL ARROWS ---------- */
 .arrows {
 	width: 60px;
