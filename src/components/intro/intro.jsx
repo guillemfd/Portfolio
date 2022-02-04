@@ -19,9 +19,9 @@ const Intro = () => {
                             <div className='i-title-item'>3D Printer</div>
                         </div>
                     </div>
-                    <p className='i-desc'>
+                    {/* <p className='i-desc'>
                         Focused in Frontend Development, with a Bachelor's Degree in Design, a Photography lover, I enjoy when a project mixes technic & creative challenges.
-                    </p>
+                    </p> */}
                 </div>
             </div>
 

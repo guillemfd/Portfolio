@@ -1,0 +1,85 @@
+.navbar-logo {
+    position: fixed;
+    top: 20px;
+    left: 20%;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 101;
+}
+
+.home {
+    height: 50px;
+}
+
+
+header {
+    box-sizing: border-box;
+    padding: 40px 12%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav {
+    position: fixed;
+    z-index: 200;
+}
+
+header > li, a, button {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.navbar_links {
+    list-style: none;
+}
+
+.navbar_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar_links li button {
+    transition: all 0.3s ease 0s;
+}
+
+.navbar_links li a:hover {
+    color: #ff0000
+}
+
+.nav_button {
+    padding: 9px 25px;
+    background-color: darkgoldenrod;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.nav_button:hover {
+    background-color: rgba(184, 135, 11, 0.431);
+}
+
+.custom-shape-divider-top-1643930288 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 100;
+}
+
+.custom-shape-divider-top-1643930288 svg {
+    position: fixed;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 111px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1643930288 .shape-fill {
+    fill: #339394;
+}
