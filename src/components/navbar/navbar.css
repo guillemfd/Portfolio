@@ -9,7 +9,10 @@
 }
 
 .home {
-    height: 50px;
+    height: 30px;
+    background-color: rgba(255, 255, 255);
+    padding: 12px;
+    border-radius: 40%;
 }
 
 
@@ -34,6 +37,9 @@ header > li, a, button {
 
 .navbar_links {
     list-style: none;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 25px;
 }
 
 .navbar_links li {
@@ -46,7 +52,7 @@ header > li, a, button {
 }
 
 .navbar_links li a:hover {
-    color: #ff0000
+    color: #ffffff;
 }
 
 .nav_button {
