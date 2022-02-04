@@ -1,3 +1,52 @@
 .p {
-    width: 300px;
+    width: 20%;
+    height: 30vh;
+    margin: 20px 10px;
+    border: 2px solid #339394;
+    border-radius: 10px 50px;
+    overflow: hidden;
+}
+
+.p-header {
+    height: 30px;
+    background-color: rgb(243, 242, 242);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 200;
+}
+   
+.p-dot1 {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-right: 4px;
+    background-color: #339394;
+}
+
+.p-dot2 {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 4px;
+    background-color: #80BBBD;
+}
+
+.p-dot3 {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 4px;
+    background-color: #99C9CA;
+}
+
+.p-img {
+    width: 100%;
+    min-height: 250px;
+    transition: all 10s ease;
+}
+
+.p-img:hover {
+    transform: translateY(-40%);
 }

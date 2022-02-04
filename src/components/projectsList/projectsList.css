@@ -16,10 +16,12 @@
 }
 
 .pl-desc {
-    margin: 20px 0px;
+    margin: 0px;
 }
 
 .pl-list {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
