@@ -51,7 +51,8 @@ const Contact = () => {
                             className="c-icon" />
                         <p className='c-shy'>Don't be shy, let me know!</p>
                     </div>
-                <form ref={formRef} onSubmit={handleSubmit}>
+                {/* <form ref={formRef} onSubmit={handleSubmit}> */}
+                <form>
                     <input type="text" placeholder='Name' name="user_name" />
                     <input type="text" placeholder='Subject' name="user_subject" />
                     <input type="text" placeholder='Email' name="user_email" />

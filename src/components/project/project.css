@@ -1,3 +1,7 @@
+/* .p-wrapper {
+
+} */
+
 .p {
     width: 20%;
     height: 30vh;
@@ -45,8 +49,39 @@
     width: 100%;
     min-height: 250px;
     transition: all 10s ease;
+    margin-top: -50px;
 }
 
 .p-img:hover {
     transform: translateY(-40%);
+}
+
+.button-wrapper {
+    height: 50px;
+    background-color: none;
+    display: flex;
+    /* position: sticky; */
+    z-index: 100;
+    /* bottom: 5px;
+    right: 5px; */
+}
+
+.p-check{
+    padding-left: 30px;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.p-button {
+    border: none;
+    padding: 10px;
+    margin: 5%;
+    background-color: #ff6464;
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    /* cursor: pointer; */
+    border-radius: 5px 20px;
+    z-index: 100;
+    align-items: flex-end;
 }
