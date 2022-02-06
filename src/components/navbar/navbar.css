@@ -30,7 +30,7 @@ nav {
 }
 
 header > li, a, button {
-    font-size: 16px;
+    font-size: 13px;
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
@@ -38,8 +38,8 @@ header > li, a, button {
 .navbar_links {
     list-style: none;
     padding: 5px;
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px 20px;
 }
 
 .navbar_links li {
@@ -59,7 +59,7 @@ header > li, a, button {
     padding: 9px 25px;
     background-color: darkgoldenrod;
     border: none;
-    border-radius: 25px;
+    border-radius: 5px 20px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }

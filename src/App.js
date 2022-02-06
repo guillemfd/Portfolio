@@ -1,6 +1,7 @@
 import './App.css';
 import About from './components/about/about';
 import Background from './components/background/background';
+import Contact from './components/contact/contact';
 import GalleryList from './components/galleryList/galleryList';
 import Intro from './components/intro/intro';
 import Navbar from './components/navbar/navbar';
@@ -15,6 +16,7 @@ function App() {
       <About />
       <ProjectsList />
       <GalleryList />
+      <Contact />
     </div>
   );
 }

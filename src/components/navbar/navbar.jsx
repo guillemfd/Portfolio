@@ -37,7 +37,7 @@ const Navbar = (props) => {
                     </li>
                     <li>
                         <Link to="/" className="link">
-                        Photography
+                        Photography Projects
                         </Link>
                     </li>
                     <li>
