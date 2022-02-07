@@ -25,7 +25,7 @@ const Project = ({ img, link, title, tagline, github, techs}) => {
                     </button>
                 </a>
             </div>
-            <p className='p-techs-text'>Languages & Frameworks // Libraries & Tools</p>
+            <p className='p-techs-text'>Languages & Frameworks || Libraries & Tools</p>
             <img src={techs} alt="techsIMG" className="p-techs" />
         </div>
     )

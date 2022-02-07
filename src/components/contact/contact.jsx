@@ -4,13 +4,27 @@ import phone from '../../img/phone-incoming-dynamic-color.png'
 import address from '../../img/map-pin-dynamic-color.png'
 import pencil from '../../img/pencil-dynamic-color.png'
 import { useRef } from 'react'
+import emailjs from 'emailjs-com'
 
 
 const Contact = () => {
 
-    const formRef = useRef
+    const formRef = useRef()
+
     const handleSubmit = (e) => {
         e.preventDefault()
+        emailjs
+            .sendForm( 
+                "service_0ox7xvn", 
+                "template_l0pth9k", 
+                formRef.current, 
+                "user_YtfNnHvEbYt9uVvmpSCP7"
+                )
+            .then((result) => {
+                    console.log("Your email has been seccessfully sent!");
+                }, (error) => {
+                    console.log(error.text);
+                });
     }
 
     return (
@@ -51,16 +65,13 @@ const Contact = () => {
                             className="c-icon" />
                         <p className='c-shy'>Don't be shy, let me know!</p>
                     </div>
-                {/* <form ref={formRef} onSubmit={handleSubmit}> */}
-                <form>
+                <form ref={formRef} onSubmit={handleSubmit}>
                     <input type="text" placeholder='Name' name="user_name" />
                     <input type="text" placeholder='Subject' name="user_subject" />
                     <input type="text" placeholder='Email' name="user_email" />
                     <textarea rows={5} placeholder="Message" name="message"/>
-                    <button className='c-button'>Submit</button>
+                    <button className='c-button'>Send request</button>
                 </form>
-
-
                 </div>
             </div>
         </div>
