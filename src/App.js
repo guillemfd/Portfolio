@@ -6,6 +6,7 @@ import GalleryList from './components/galleryList/galleryList';
 import Intro from './components/intro/intro';
 import Navbar from './components/navbar/navbar';
 import ProjectsList from './components/projectsList/projectsList';
+import ReferralsList from './components/referralsList/referralsList';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <About />
       <ProjectsList />
       <GalleryList />
+      <ReferralsList />
       <Contact />
     </div>
   );

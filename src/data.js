@@ -86,3 +86,24 @@ export const galleries = [
         link: "https://cargocollective.com/guillemfd/escenes",
     },
 ]
+
+export const referrals = [
+    {
+        id: 1,
+        link: "https://ie.linkedin.com/in/sam-warbrick",
+        img: require("./img/referrals/sam.jpg"),
+        name: "Sam Warbrick",
+        country: "Ireland",
+        position: "Conference & Event Manager",
+        referral: "I have had the pleasure of collaborating with Guillem on several projects in recent years, each executed with the utmost professionalism, accuracy and efficiency. No request was ever too much - which resulted in very positive and successful projects.",
+    },
+    {
+        id: 2,
+        link: "https://de.linkedin.com/in/jonas-b%C3%B6lte-505694153",
+        img: require("./img/referrals/jonas.jpg"),
+        name: "Jonas Bölte",
+        country: "Germany",
+        position: "Marketing Manager bei COMPRION",
+        referral: "Guillem and I have had the pleasure of working together on a number of projects over the past years. Not only is he highly professional, but he is also very solution oriented and always strives to exceed all requirements. You couldn't ask for a better project partner.",
+    },
+]

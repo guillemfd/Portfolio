@@ -3,13 +3,13 @@ import mail from '../../img/at-dynamic-color.png'
 import phone from '../../img/phone-incoming-dynamic-color.png'
 import address from '../../img/map-pin-dynamic-color.png'
 import pencil from '../../img/pencil-dynamic-color.png'
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 import emailjs from 'emailjs-com'
-
 
 const Contact = () => {
 
     const formRef = useRef()
+    const [done, setDone] = useState(false)
 
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -22,6 +22,7 @@ const Contact = () => {
                 )
             .then((result) => {
                     console.log("Your email has been seccessfully sent!");
+                    setDone(true)
                 }, (error) => {
                     console.log(error.text);
                 });
@@ -71,6 +72,8 @@ const Contact = () => {
                     <input type="text" placeholder='Email' name="user_email" />
                     <textarea rows={5} placeholder="Message" name="message"/>
                     <button className='c-button'>Send request</button>
+                    {done && 
+                    <p className='c-response'>Your email has been seccessfully sent!</p>}
                 </form>
                 </div>
             </div>
