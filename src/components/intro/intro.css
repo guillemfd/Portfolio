@@ -3,6 +3,28 @@
     height: 100vh;
 }
 
+.custom-shape-divider-top-1643930288 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 100;
+}
+
+.custom-shape-divider-top-1643930288 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 111px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1643930288 .shape-fill {
+    fill: #339394;
+}
+
 .i-left{
     flex: 1;
     display: flex;

@@ -114,8 +114,7 @@ export const referrals = [
         img: require("./img/referrals/fer.jpg"),
         name: "Fernando O.",
         country: "Spain",
-        position: "Senior Product Manager and Jr Front end Developer",
-        // position: "Senior Product Manager and Jr Front end Developer. Web3 passionate, UX lover and serial entrepreneur",
+        position: "Senior Product Manager and Jr Front end Developer. Web3 passionate & UX lover",
         referral: "He's a tireless researcher for the best solution possible to any problem we faced during the development of different REACT projects. Very creative, UX aware and with a Product approach to every step we made.",
         referralB: "Guillem is pure talent in the Back end and a high skilled Front end developer. I wish we can work together again and I'm very sure he'll be a very valuable asset to any team he work in.",
     },
@@ -147,6 +146,5 @@ export const referrals = [
         country: "Sweden",
         position: "Jr FrontEnd Developer",
         referral: "He's very talented, proactive and an expert problem solver with high dosis of creativity.",
-        referralB: "",
     },
 ]

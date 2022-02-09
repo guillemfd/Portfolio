@@ -10,7 +10,7 @@
 
 .home {
     height: 30px;
-    background-color: rgba(255, 255, 255);
+    background-color: #00fbffed;
     padding: 12px;
     border-radius: 40%;
 }
@@ -38,7 +38,7 @@ header > li, a, button {
 .navbar_links {
     list-style: none;
     padding: 5px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #339294ed;
     border-radius: 5px 20px;
 }
 
@@ -57,7 +57,7 @@ header > li, a, button {
 
 .nav_button {
     padding: 9px 25px;
-    background-color: darkgoldenrod;
+    background-color: #339294ed;
     border: none;
     border-radius: 5px 20px;
     cursor: pointer;
@@ -65,27 +65,5 @@ header > li, a, button {
 }
 
 .nav_button:hover {
-    background-color: rgba(184, 135, 11, 0.431);
-}
-
-.custom-shape-divider-top-1643930288 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    z-index: 100;
-}
-
-.custom-shape-divider-top-1643930288 svg {
-    position: fixed;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 111px;
-    transform: rotateY(180deg);
-}
-
-.custom-shape-divider-top-1643930288 .shape-fill {
-    fill: #339394;
+    background-color: #ffffff;
 }

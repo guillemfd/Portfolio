@@ -7,7 +7,7 @@ const GalleryList = () => {
 
 
     return (
-        <div className='pl'>
+        <div className='pl' id="GalleryList">
             <div className="pl-texts">
                 <h1 className="pl-title">Photography</h1>
                 <p className="pl-desc">

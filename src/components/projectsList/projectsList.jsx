@@ -7,7 +7,7 @@ const ProjectsList = () => {
 
 
     return (
-        <div className='pl'>
+        <div className='pl' id="ProjectsList">
             <div className="pl-texts">
                 <h1 className="pl-title">Web Development</h1>
                 <p className="pl-desc">

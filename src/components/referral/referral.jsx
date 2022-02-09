@@ -11,10 +11,14 @@ const Referral = ({ img, name, country, position, link, referral, referralB }) =
     <div>
         <div className='R-card'>
             <div className='R-header'>
+            <a href={link} target="_blank" rel="noreferrer">
                 <img src={img} alt="contactIMG" className="R-img" />
+            </a>
                 <div>
                     <div>
+                    <a href={link} target="_blank" rel="noreferrer">
                         <p className='R-name'>{name}</p>
+                    </a>
                         <p className='R-country'>{country}</p>
                     </div>
                         <p className='R-position'>{position}</p>
