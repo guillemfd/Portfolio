@@ -13,7 +13,7 @@
     border: 1px solid #339394;
     border-radius: 10px 50px;
     overflow: hidden;
-    /* position: relative; */
+    position: relative;
 }
 
 .p-header {
@@ -70,8 +70,6 @@
     border: none;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-    font-weight: 500;
-    font-size: 12px;
     border-radius: 5px 20px;
     cursor: url('../../img/github-cursor.png'), auto;
     position: absolute;
