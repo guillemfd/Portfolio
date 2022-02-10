@@ -4,23 +4,44 @@ import G from '../../img/G.png'
 import navbarBG from '../../img/navbar.svg'
 import ProjectsList from '..//projectsList/projectsList';
 import { Link } from 'react-router-dom';
+import jsPDF from 'jspdf'
+import resume from '../../img/Resume_GuillemFerrer.pdf'
 
 
+
+// class Navbar extends Component {
+//     pdfGenerate=() => {
+//         var doc=new jsPDF ('portrait', 'px','a4','false');
+//         doc.addImage(resume, 'PDF', 65, 20,500, 400)
+//         doc.save('Resume_GuillemFerrer.pdf')
+//     }
+
+// render() {
 
 const Navbar = (props) => {
-
 
 
   return (
     <div>
 
         <header>
-            <Link to="/" className="navbar-logo">
+            {/* <Link to="/" className="navbar-logo">
                     <img 
                     className="home" 
                     src={G} 
                     alt="logo" />
-            </Link>
+            </Link> */}
+                    <HashLink                 
+                            to="#Intro" 
+                            activeClass="active"
+                            spy={true} 
+                            smooth={true}
+                            className="navbar-logo">
+                            <img 
+                            className="home" 
+                            src={G} 
+                            alt="logo" />
+                    </HashLink>
             <nav>
                 <ul className="navbar_links">
                     <li>

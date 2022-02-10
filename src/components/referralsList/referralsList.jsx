@@ -9,9 +9,9 @@ const ReferralsList = () => {
 
   return (
     <div className="horContainer" id="Referrals">
-            <div className="pl-texts">
+            {/* <div className="pl-texts"> */}
                 <h1 className="R-title">Referrals</h1>
-            </div>
+            {/* </div> */}
             <div className="fade-effect-scroll left">
             </div>
                 <HorizontalScroll >

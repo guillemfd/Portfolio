@@ -1,2 +1,101 @@
+.R-card {
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+    height: 410px;
+    margin: 20px 10px;
+    border: none;
+    background-color: rgba(240, 240, 240, 0.7);
+    border-radius: 10px 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.R-header {
+    height: 90px;
+    background-color: rgb(224, 224, 224, 0.7);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 100;
+}
+   
+.R-img {
+    width: 60px;
+    margin: 10px;
+    border-radius: 50%;
+}
 
 
+.R-name{
+    /* display: flex;
+    flex-direction: column; */
+    /* padding-left: 30px; */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.R-country {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.R-position {
+    /* font-style: italic; */
+    font-size: 14px;
+}
+
+.R-button {
+    border: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 5px 20px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    padding: 8px 8px 4px 8px;
+}
+
+.linkedinLogo {
+    width: 25px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+
+.R-referral {
+    margin: -40px 40px 0px 80px;
+    font-size: 13px;
+    font-style: italic;
+    initial-letter: 25;
+}
+
+.R-referral::first-letter {
+    font-size: 20px;
+}
+
+.R-referralB::first-letter {
+    font-size: 20px;
+}
+
+.R-quotes {
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    margin: 10px 0px 0px 79px;
+}
+
+.R-quotesB {
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    margin: -20px 20px 0px 0px;
+    text-align: end;
+}
+
+.R-referralB {
+    margin: 10px 25px 10px 80px;
+    font-size: 13px;
+    font-style: italic;
+}

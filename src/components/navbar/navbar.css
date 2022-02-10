@@ -1,8 +1,8 @@
 .navbar-logo {
     position: fixed;
     top: 20px;
-    left: 20%;
-    width: 100%;
+    left: 2%;
+    width: 60px;
     overflow: hidden;
     line-height: 0;
     z-index: 101;
@@ -10,7 +10,7 @@
 
 .home {
     height: 30px;
-    background-color: #00fbffed;
+    background-color: #339294ed;
     padding: 12px;
     border-radius: 40%;
 }
@@ -18,7 +18,7 @@
 
 header {
     box-sizing: border-box;
-    padding: 40px 12%;
+    padding: 40px 2%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -56,8 +56,7 @@ header > li, a, button {
 }
 
 .nav_button {
-    padding: 9px 25px;
-    background-color: #339294ed;
+    padding: 5px 25px;
     border: none;
     border-radius: 5px 20px;
     cursor: pointer;
@@ -65,5 +64,5 @@ header > li, a, button {
 }
 
 .nav_button:hover {
-    background-color: #ffffff;
+    background-color: #ffffff5e;
 }
