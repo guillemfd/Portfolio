@@ -7,18 +7,22 @@ import Intro from './components/intro/intro';
 import Navbar from './components/navbar/navbar';
 import ProjectsList from './components/projectsList/projectsList';
 import ReferralsList from './components/referralsList/referralsList';
+import AppRoutes from './routes/AppRoutes';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <Background />
+      <Navbar />
+      <AppRoutes />
+
+      {/* <Background />
       <Intro />
       <About />
       <ProjectsList />
       <GalleryList />
       <ReferralsList />
-      <Contact />
+      <Contact /> */}
     </div>
   );
 }

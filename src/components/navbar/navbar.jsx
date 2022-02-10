@@ -27,7 +27,7 @@ const Navbar = (props) => {
 
         <header>
                     <HashLink                 
-                            to="#Intro" 
+                            to="/" 
                             activeClass="active"
                             spy={true} 
                             smooth={true}

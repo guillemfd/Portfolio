@@ -1,0 +1,37 @@
+#HomePageBackGround {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+    z-index: -1;
+    opacity: 100%;
+}
+
+#HomePageBackGround img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+}
+
+.Page_Title {
+    margin-top: 10px;
+    margin-left: 40px;
+    color: white;
+    text-shadow: 2px 2px #000000;
+    font-Size: 60px;
+}
+
+.Page_Subtitle {
+    margin-bottom: 20px;
+    margin-left: 40px;
+    max-width: 450px;
+    font-size: 20px;
+    color: rgb(180, 180, 180); 
+    text-shadow: white
+}          
