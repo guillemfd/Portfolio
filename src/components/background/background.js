@@ -55,19 +55,20 @@ const Background = () => {
             particles: {
               color: {
                 value: [
-                    "#F87D4F",
-                    "#FEC73B",
-                    "#F89930",
-                    "#F45623",
-                    "#D62E32",
-                    "#EB586E",
+                    // "#F87D4F",
+                    // "#FEC73B",
+                    // "#F89930",
+                    // "#F45623",
+                    // "#D62E32",
+                    // "#EB586E",
+                    "#339394",
                 ]
               },
               links: {
-                color: "#ffff85",
+                color: "#808080",
                 distance: 150,
                 enable: true,
-                opacity: 0.5,
+                opacity: 0.1,
                 width: 1,
               },
               collisions: {

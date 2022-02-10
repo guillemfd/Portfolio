@@ -1,5 +1,5 @@
 import './about.css'
-import img_ME from '../../img/foto_perfil.png'
+import img_ME from '../../img/foto_perfil_petita.jpg'
 import IRONHACK from '../../img/IRONHACK-logo.png'
 import ELISAVA from '../../img/ELISAVA-logo.png'
 import SOUTHAMPTON from '../../img/Southampton-logo.png'

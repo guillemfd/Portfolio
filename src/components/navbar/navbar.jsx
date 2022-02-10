@@ -1,6 +1,7 @@
 import { HashLink } from 'react-router-hash-link';
 import "./navbar.css";
 import G from '../../img/G.png'
+import GW from '../../img/GW.png'
 import navbarBG from '../../img/navbar.svg'
 import ProjectsList from '..//projectsList/projectsList';
 import { Link } from 'react-router-dom';
@@ -25,12 +26,6 @@ const Navbar = (props) => {
     <div>
 
         <header>
-            {/* <Link to="/" className="navbar-logo">
-                    <img 
-                    className="home" 
-                    src={G} 
-                    alt="logo" />
-            </Link> */}
                     <HashLink                 
                             to="#Intro" 
                             activeClass="active"
@@ -39,7 +34,7 @@ const Navbar = (props) => {
                             className="navbar-logo">
                             <img 
                             className="home" 
-                            src={G} 
+                            src={GW} 
                             alt="logo" />
                     </HashLink>
             <nav>
@@ -85,19 +80,22 @@ const Navbar = (props) => {
                         </HashLink>
                     </li>
                     <li>
-                        <Link to="/" className="link">
-                        Resume
-                        </Link>
-                    </li>
-                    <li>
                         <HashLink                 
                             to="#Contact" 
                             activeClass="active"
                             spy={true} 
                             smooth={true}
-                            className="nav_button">
+                            className="link">
                         Contact
                         </HashLink>
+                    </li>
+                    <li>
+                        <a 
+                            href={resume} 
+                            download="Resume_GuillemFerrer"
+                            className="nav_button">
+                            Resume
+                            </a>
                     </li>
                 </ul>
             </nav>
