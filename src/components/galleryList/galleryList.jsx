@@ -1,4 +1,5 @@
 import '../projectsList/projectsList.css'
+import './galleryList.css'
 import { galleries } from '../../data'
 import Gallery from '../gallery/gallery'
 
@@ -7,7 +8,7 @@ const GalleryList = () => {
 
 
     return (
-        <div className='pl' id="GalleryList">
+        <div className='Gl' id="GalleryList">
             <div className="pl-texts">
                 <h1 className="pl-title">Photography</h1>
                 <p className="pl-desc">

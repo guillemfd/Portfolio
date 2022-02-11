@@ -1,3 +1,12 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: O#00828c;
+    color: white;
+}
+
 .navbar-logo {
     position: fixed;
     top: 20px;
@@ -40,7 +49,9 @@ header > li, a, button {
     padding: 5px;
     background-color: #339294ed;
     border-radius: 5px 20px;
+    /* display: inline-block; */
 }
+
 
 .navbar_links li {
     display: inline-block;
@@ -65,4 +76,48 @@ header > li, a, button {
 
 .nav_button:hover {
     background-color: #ffffff5e;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+/* .nav-links-mobile {
+    display: none;
+} */
+
+@media screen and (max-width: 1020px) {
+    .navbar_links {
+        display: none;
+    }
+
+    .nav-links-mobile {
+        /* position: absolute; */
+        display: block;
+        list-style: none;
+        margin-top: 180px;
+        padding: 10px 20px;
+        background-color: #339294ed;
+        border-radius: 5px 20px;
+        /* position: absolute;
+        display: block;
+        list-style: none;
+        background-color: #339294ed;
+        left: 0;
+        top: 75px;
+        transition: all 0.5s ease-out;
+        width: 100%; */
+    }
+    
+    .link-mobile {
+        line-height: 30px;
+    }
+    
+    .nav-links-mobile li button {
+        transition: all 0.3s ease 0s;
+    }
+    
+    .nav-links-mobile li a:hover {
+        color: #ffffff;
+    }
 }
