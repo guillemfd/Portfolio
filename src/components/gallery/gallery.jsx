@@ -1,18 +1,26 @@
 import './gallery.css'
+import aperture1 from '../../img/GalleryOne/aperture1.png'
+import aperture2 from '../../img/GalleryOne/aperture2.png'
+import aperture3 from '../../img/GalleryOne/aperture3.png'
 
-const Gallery = ({ img, link}) => {
+
+const Gallery = ({ img, link, title }) => {
 
 
     return (
-        <div className='p-gallery'>
-            <div className='p-header'>
-                <div className='pG-dot1'></div>
-                <div className='pG-dot2'></div>
-                <div className='pG-dot3'></div>
+        <div className='pG-card'>
+            <div className='pG'>
+                <div className='pG-header'>
+                    <img  src={aperture3} alt="Img2" className="pG-dot1" />
+                    <img  src={aperture2} alt="Img2" className="pG-dot2" />
+                    <img  src={aperture1} alt="Img2" className="pG-dot2" />
+                    <p className='pG-check'><span style={{fontWeight: 'bold'}}>{title}</span></p>
+                </div>
+                <a href={link} rel="noreferrer" >
+                    {/* <img  src={encuadre} alt="Img2" className="pG-img2" /> */}
+                    <img src={img} alt="Img" className="pG-img" />
+                </a>
             </div>
-            <a href={link} target="_blank" rel="noreferrer" >
-                <img src={img} alt="" className="p-img" />
-            </a>
         </div>
     )
 }

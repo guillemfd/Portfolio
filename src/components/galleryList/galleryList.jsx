@@ -16,7 +16,7 @@ const GalleryList = () => {
             </div>
             <div className="pl-list">
             {galleries.map((project) => (
-                <Gallery key={project.id} img={project.img} link={project.link}/>
+                <Gallery key={project.id} title={project.title} img={project.img} link={project.link}/>
             ))}
             </div>
         </div>

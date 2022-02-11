@@ -11,7 +11,7 @@ const Project = ({ img, link, title, tagline, github, techs}) => {
                     <div className='p-dot1'></div>
                     <div className='p-dot2'></div>
                     <div className='p-dot3'></div>
-                    <p className='p-check'><span style={{fontWeight: 'bold'}}>{title}</span> <br></br> <span style={{fontStyle: 'italic'}}>{tagline}</span></p>
+                    <p className='p-check'><span style={{fontWeight: 'bold'}}>{title}</span> <br></br> <span style={{fontStyle: 'italic', fontSize: '13px'}}>{tagline}</span></p>
                 </div>
                 <a href={link} target="_blank" rel="noreferrer" >
                     <img src={img} alt="projectIMG" className="p-img" />

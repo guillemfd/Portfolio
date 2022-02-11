@@ -1,15 +1,17 @@
 .g-title {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 600;
     text-align: center;
+    margin-top: 50px;
 }
 
 .g-desc {
-    margin: 0px;
+    font-size: 16px;
     text-align: center;
+    margin: 10px 20%;
 }
 
-.pics-img {
+.modalImg {
     width: auto;
     max-width: 100%;
     height: auto;
@@ -72,7 +74,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000000da;
+    background-color: #000000ed;
     transition: opacity .4s ease, visibility .4s ease, transform .5s ease-in-out;
     visibility: hidden;
     opacity: 0;

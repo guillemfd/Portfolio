@@ -22,8 +22,9 @@ import img18 from '../../../img/GalleryOne/MiniGeensen-18.jpg'
 import img19 from '../../../img/GalleryOne/MiniGeensen-19.jpg'
 import img20 from '../../../img/GalleryOne/MiniGeensen-20.jpg'
 import img21 from '../../../img/GalleryOne/MiniGeensen-21.jpg'
-import img22 from '../../../img/GalleryOne/MiniGeensen-22.jpg'
-import { getSpaceUntilMaxLength } from '@testing-library/user-event/dist/utils'
+import Contact from '../../../components/contact/contact'
+import Footer from '../../../components/footer/footer'
+import NavbarGallery from '../../../components/navbarGallery/navbarGallery'
 
 
 
@@ -114,10 +115,6 @@ const GalleryOne = () => {
       id: 21,
       imgSrc: img21,
     },
-    {
-      id: 22,
-      imgSrc: img22,
-    },
   ]
 
 
@@ -131,14 +128,15 @@ const GalleryOne = () => {
 
 
   return (
-  <>
+    <>
+      <NavbarGallery />
         <h1 className="g-title">Architect's office</h1>
         <p className="g-desc">
-            Shooting session to a small and cozy architect's office. Wooden finishes, hidden illumination.
+            Shooting session to a small, cozy and polite style architect's office. Wooden finishes, hidden illumination.
         </p>
 
         <div className={modal? "modal open" : "modal"}>
-          <img src={tempImgSrc} alt="modal" />
+          <img src={tempImgSrc} alt="modal" className='modalImg'/>
           <img src={close} alt="closeCross" className='closeCross' onClick={() => setModal(false)}/>
         </div>
 
@@ -146,11 +144,13 @@ const GalleryOne = () => {
           {data.map((item, index) =>{
               return(
                   <div className="pics" key={index} onClick={() => getImg(item.imgSrc)}>
-                      <img src={item.imgSrc} alt={item.id} className="pics-img"/>
+                      <img src={item.imgSrc} alt={item.id} style={{width: '100%'}} className="pics-img"/>
                   </div>
               )
           })}
         </div>
+        <Contact />
+        <Footer />
     </>        
   );
 };

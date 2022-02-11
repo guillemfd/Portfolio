@@ -21,7 +21,7 @@ const About = () => {
                 {/* </div> */}
             </div>
             <div className="a-right">
-                <h1 className="a-title">About Me</h1>
+                <h1 className="R-title">About Me</h1>
                 <img 
                         src={ROCKET} 
                         alt='ROCKET' 

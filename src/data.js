@@ -51,19 +51,21 @@ export const projects = [
 export const galleries = [
     {
         id: 1,
-        title: "MicroplasticsMacroproblems",
-        img: "https://payload.cargocollective.com/1/3/108763/1397877/_MG_8237.jpg",
-        link: "https://cargocollective.com/guillemfd/malawi-nens-color",
+        title: "Architect's office",
+        img: require("./img/GalleryOne/MiniGeensen-3.jpg"),
+        link: "/GalleryOne",
     },
     {
         id: 2,
-        img: "https://payload.cargocollective.com/1/3/108763/1397839/_MG_9285.jpg",
-        link: "https://cargocollective.com/guillemfd/malawi-nens-b-n",
+        title: "Home in Barcelona (living area)",
+        img: require("./img/GalleryTwo/living/L- (9).jpg"),
+        link: "/GalleryTwo",
     },
     {
         id: 3,
-        img: "https://payload.cargocollective.com/1/3/108763/1397748/_MG_9347.jpg",
-        link: "https://cargocollective.com/guillemfd/malawi-llac",
+        title: "Home in Barcelona (outdoors & convenience areas)",
+        img: require("./img/GalleryTwo/outdoors/O- (11).jpg"),
+        link: "/GalleryThree",
     },
     {
         id: 4,

@@ -1,7 +1,7 @@
 .horContainer {
     width: 78vw;
     height: 75vh;
-    padding: 50px 10vw;
+    padding: 0px 10vw;
     display: flex;
     flex-direction: column;
     align-items: center;
