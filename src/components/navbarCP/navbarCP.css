@@ -1,27 +1,40 @@
-
-  
-  /* .nav {
-    height: 50px;
-    width: 100%;
+.home {
+    height: 30px;
     background-color: #00828c;
-    position: relative;
-    z-index: 998;
-  } */
+    padding: 12px;
+    border-radius: 35%;
+    transition: all 0.5s ease 0s;   
+}
 
-  .nav {
-    display: flex;
-    position: relative;
-    justify-content: flex-end;
-    align-items: center;
+
+.home:hover {
+    border-radius: 50%;
+}
+
+.navbar-logo {
+    position: fixed;
+    top: 15px;
+    left: 2%;
+    z-index: 999;
+}
+
+nav {
     height: 40px;
+    max-width: 760px;
     background-color: #00838ce8;
-    color: white;
-    z-index: 998;
-    margin: 15px 15px 15px 20%;
+}
+.nav {
+    position: fixed;
+    top: 15px;
+    right: 2%;
+    z-index: 999;
     border-radius: 5px 20px;
-  }
+    align-items: center;
+    display: flex;
+    color: white;
+}
 
-  .Resume_button {
+.Resume_button {
     padding: 5px 15px;
     border: none;
     border-radius: 5px 20px;
@@ -30,50 +43,51 @@
     text-decoration: none;
     color: white;
     width: 100%;
-  }
+}
 
-  .Resume_button:hover {
+.Resume_button:hover {
     background-color: #ffffff5e;
-  }
+}
   
-  .nav > .nav-header {
+.nav > .nav-header {
     display: inline;
-  }
+}
   
-  .nav > .nav-header > .nav-title {
+.nav > .nav-header > .nav-title {
     display: inline-block;
     font-size: 22px;
     color: #fff;
     padding: 10px 10px 10px 10px;
-  }
+}
   
-  .nav > .nav-btn {
+.nav > .nav-btn {
     display: none;
-  }
+}
   
-  .nav > .nav-links {
+.nav > .nav-links {
     display: inline;
     float: right;
     font-size: 15px;
     margin: 5px 20px
-  }
+}
   
-  .nav > .nav-links > a .new-links {
+.new-links {
     display: inline-block;
     padding: 15px;
     text-decoration: none;
     color: #efefef;
-  }
+}
   
-  .nav > .nav-links > a:hover .new-links:hover {
+.new-links:hover {
     Color: rgba(0, 0, 0, 0.3);
-  }
+}
+
   
-  .nav > #nav-check {
+.nav > #nav-check {
     display: none;
-  }
+}
   
-  @media (max-width:1010px) {
+@media (max-width:1010px) {
     .nav {
         background-color: rgba(255, 255, 255, 0);
     }  
@@ -125,4 +139,4 @@
       height: calc(60vh - 50px);
       overflow-y: auto;
     }
-  }
+}

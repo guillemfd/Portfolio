@@ -1,19 +1,9 @@
 import { HashLink } from 'react-router-hash-link';
 import "./navbarCP.css";
-import G from '../../img/G.png'
 import GW from '../../img/GW.png'
-import navbarBG from '../../img/navbar.svg'
-import ProjectsList from '..//projectsList/projectsList';
-import { Link } from 'react-router-dom';
-import jsPDF from 'jspdf'
 import resume from '../../img/Resume_GuillemFerrer.pdf'
-import { useState } from 'react';
-
-
 
 const NavbarCP = () => {
-
-
 
   return (
       <div>
@@ -29,26 +19,20 @@ const NavbarCP = () => {
             alt="logo" />
         </HashLink>
 
-    <div class="nav">
+        <nav className="nav">
     
-        <input type="checkbox" id="nav-check" />
-        {/* <div class="nav-header">
-            <div class="nav-title">
-            JoGeek
+            <input type="checkbox" id="nav-check" />
+            <div className="nav-btn">
+                <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+                </label>
             </div>
-        </div> */}
-        <div class="nav-btn">
-            <label for="nav-check">
-            <span></span>
-            <span></span>
-            <span></span>
-            </label>
-        </div>
-        
-        <div class="nav-links">
-            <a href="#About" rel="noreferrer">
+            
+            <div className="nav-links">
                 <HashLink                 
-                        to="#About" 
+                        to="/#About" 
                         activeClass="active"
                         spy={true} 
                         smooth={true}
@@ -56,10 +40,8 @@ const NavbarCP = () => {
                         >
                     About
                 </HashLink>
-            </a>
-            <a href="#ProjectsList" rel="noreferrer">
                 <HashLink                 
-                    to="#ProjectsList" 
+                    to="/#ProjectsList" 
                     activeClass="active"
                     spy={true} 
                     smooth={true}
@@ -67,10 +49,8 @@ const NavbarCP = () => {
                     >
                 Web Dev Projects
                 </HashLink>
-            </a>
-            <a href="#GalleryList" rel="noreferrer">
                 <HashLink                 
-                    to="#GalleryList" 
+                    to="/#GalleryList" 
                     activeClass="active"
                     spy={true} 
                     smooth={true}
@@ -78,10 +58,8 @@ const NavbarCP = () => {
                     >
                 Photography Projects
                 </HashLink>
-            </a>
-            <a href="#Referrals" rel="noreferrer">
                 <HashLink                 
-                    to="#Referrals" 
+                    to="/#Referrals" 
                     activeClass="active"
                     spy={true} 
                     smooth={true}
@@ -89,10 +67,8 @@ const NavbarCP = () => {
                     >
                 Referrals
                 </HashLink>
-            </a>
-            <a href="#Contact" rel="noreferrer">
                 <HashLink                 
-                    to="#Contact" 
+                    to="/#Contact" 
                     activeClass="active"
                     spy={true} 
                     smooth={true}
@@ -100,16 +76,14 @@ const NavbarCP = () => {
                     >
                 Contact
                 </HashLink>
-            </a>
-            <a 
-                href={resume} 
-                download="Resume_GuillemFerrer"
-                className="Resume_button">
-                Resume
-            </a>
-        </div>
-                  
-      </div>
+                <a 
+                    href={resume} 
+                    download="Resume_GuillemFerrer"
+                    className="Resume_button">
+                    Resume
+                </a>
+            </div>    
+        </nav>
     </div>
   );
 };

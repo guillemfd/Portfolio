@@ -30,10 +30,6 @@ import img27 from '../../../img/GalleryTwo/living/L- (27).jpg'
 import img28 from '../../../img/GalleryTwo/living/L- (28).jpg'
 import img29 from '../../../img/GalleryTwo/living/L- (29).jpg'
 import img30 from '../../../img/GalleryTwo/living/L- (30).jpg'
-import Contact from '../../../components/contact/contact'
-import Footer from '../../../components/footer/footer'
-import NavbarGallery from '../../../components/navbarGallery/navbarGallery'
-
 
 
 const GalleryTwo = () => {
@@ -173,7 +169,6 @@ const GalleryTwo = () => {
 
   return (
     <>
-      <NavbarGallery />
         <h1 className="g-title">Home in Barcelona (living area)</h1>
         <p className="g-desc">
             Shooting session to a single-family house in the heart of Barcelona. Elegant, stately, bright and with all kinds of amenities. Here you can enjoy the living area.
@@ -193,8 +188,6 @@ const GalleryTwo = () => {
               )
           })}
         </div>
-        <Contact />
-        <Footer />
     </>        
   );
 };

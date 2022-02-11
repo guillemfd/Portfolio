@@ -23,9 +23,6 @@ import img19 from '../../../img/GalleryOne/MiniGeensen-19.jpg'
 import img20 from '../../../img/GalleryOne/MiniGeensen-20.jpg'
 import img21 from '../../../img/GalleryOne/MiniGeensen-21.jpg'
 import Contact from '../../../components/contact/contact'
-import Footer from '../../../components/footer/footer'
-import NavbarGallery from '../../../components/navbarGallery/navbarGallery'
-
 
 
 const GalleryOne = () => {
@@ -129,7 +126,6 @@ const GalleryOne = () => {
 
   return (
     <>
-      <NavbarGallery />
         <h1 className="g-title">Architect's office</h1>
         <p className="g-desc">
             Shooting session to a small, cozy and polite style architect's office. Wooden finishes, hidden illumination.
@@ -150,7 +146,6 @@ const GalleryOne = () => {
           })}
         </div>
         <Contact />
-        <Footer />
     </>        
   );
 };
