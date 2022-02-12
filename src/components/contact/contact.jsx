@@ -32,10 +32,19 @@ const Contact = () => {
 
     return (
         <div className="c" id="Contact">
-
+            <div className="pl-texts">
+                <h1 className="pl-title">How can I help you?</h1>
+                <p className="pl-desc">
+                    Don't be shy and contact me!
+                        <img
+                            src={pencil}
+                            alt="e-mail"
+                            className="c-icon" />
+                </p>
+            </div>
             <div className="c-wrapper">
+            
                 <div className="c-left">
-                    <h1 className="c-title">How can I help you?</h1>
                     <div className="c-info">
                         <div className="c-info-item">
                             <img
@@ -85,13 +94,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className='c-right'>
-                    <div className="c-info-item">
-                        <p className='c-shy'>Don't be shy and contact me!</p>
-                        <img
-                            src={pencil}
-                            alt="e-mail"
-                            className="c-icon" />
-                    </div>
+
                 <form ref={formRef} onSubmit={handleSubmit} className='c-input'>
                     <input type="text" placeholder='Name' name="user_name" />
                     <input type="text" placeholder='Subject' name="user_subject" />

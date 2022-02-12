@@ -1,13 +1,15 @@
 .c{
-    height: 100%;
-    position: relative;
-    margin-bottom: 100px;
-    padding: 7% 15%;
+    padding: 5% 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #339394;
+    margin-bottom: 105px;
 }
 
 
 .c-wrapper {
-    padding: 50px;
     display: flex;
 }
 
@@ -17,6 +19,8 @@
 
 .c-link {
     font-size: 16px;
+    text-decoration: none;
+    color: black;
 }
 
 .c-right {
@@ -35,7 +39,7 @@
 .c-info-item {
     display: flex;
     align-items: center;
-    margin: 50px 0px 20px 20px;
+    margin: 50px 20px 20px 20px;
     font-weight: 300;
     width: 80%;
 }
@@ -59,31 +63,42 @@ form {
     height: 50px;
     border: none;
     border-radius: 5px 20px;
-    border-left: 1px solid #339394;
-    border-bottom: 1px solid #339394;
     margin: 10px 0px;
     font-size: 14px;
     padding-left: 10px;
+    background-color: white;
 }
 
-textarea {
+.c-input textarea {
     width: 100%;
     margin: 10px 0px;
     font-size: 14px;
     padding-left: 10px;
+    padding-top: 8px;
     border: none;
     border-radius: 5px 20px;
-    border-left: 1px solid #339394;
-    border-bottom: 1px solid #339394;
 }
 
 .c-button {
     border: none;
     padding: 15px 30px;
     background-color: #339394;
+    border: 1px solid white;
     color: white;
     font-weight: 500;
     font-size: 15px;
     cursor: pointer;
     border-radius: 5px 20px;
+    transition: all 0.5s ease 0s;    
+}
+
+.c-button:hover {
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width: 800px) {
+    .c-wrapper {
+      flex-direction: column;
+  }
 }

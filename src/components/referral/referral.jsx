@@ -2,29 +2,24 @@ import "./referral.css";
 import linkedinLogo from '../../img/referrals/linkdin_icon.png'
 
 
-
 const Referral = ({ img, name, country, position, link, referral, referralB }) => {
-
 
 
   return (
     <div>
         <div className='R-card'>
-            <div className='R-header'>
-            <a href={link} target="_blank" rel="noreferrer">
-                <img src={img} alt="contactIMG" className="R-img" />
-            </a>
-                <div>
-                    <div>
-                    <a href={link} target="_blank" rel="noreferrer">
+        
+            <a href={link} target="_blank" rel="noreferrer" className="R-img-linkarea">
+                <div className='R-header'>
+                    <img src={img} alt="contactIMG" className="R-img" />
+                    <div className="R-name-wrapper">
                         <p className='R-name'>{name}</p>
-                    </a>
                         <p className='R-country'>{country}</p>
-                    </div>
                         <p className='R-position'>{position}</p>
+                    </div>
                 </div>
+            </a>
 
-            </div>
             <p className='R-quotes'>"</p>
             <p className='R-referral'>&emsp;&emsp;{referral}</p>
             <p className='R-referralB'>&emsp;&emsp;{referralB}</p>

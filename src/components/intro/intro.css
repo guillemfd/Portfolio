@@ -1,7 +1,6 @@
 .i{
     display: flex;
     height: 100vh;
-    margin-top: -5%;
     padding: 0px 15%;
 }
 
@@ -86,7 +85,7 @@
 }
 
 
-.i-bg {
+/* .i-bg {
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
     background-color: coral;
     width: 100%;
@@ -95,9 +94,9 @@
     top: 0;
     right: 0;
     z-index: -10;
-}
+} */
 
-.i-right-intro {
+/* .i-right-intro {
     margin-top: 100px;
 }
 
@@ -107,16 +106,16 @@
 
 .i-right-desc {
     margin-bottom:100px ;
-}
+} */
 
-.i-right-wrapper {
+/* .i-right-wrapper {
     padding: 50px;
     height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-}
+} */
 
 .i-img {
     height: 35%;
@@ -174,3 +173,51 @@
 }
 /* ---------- SCROLL ARROWS ---------- */
 
+@media screen and (max-width: 900px) {
+    .i {
+      flex-direction: column;
+  }
+  
+  .i-left-wrapper {
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 70%;
+    margin-top: 100px;
+   }
+   .i-intro {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.i-name {
+    font-size: 85px;
+}
+.i-title-wrapper {
+    height: 100px;
+    animation: move 10s ease-in-out infinite alternate;
+}
+.i-title {
+    height: 60px;
+    overflow: hidden;
+}
+.i-title-item {
+    height: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #D62E32;
+    display: flex;
+    align-items: center;
+}
+@keyframes move {
+    25% { transform: translateY(-60px); }
+    50% { transform: translateY(-120px); }
+    75% { transform: translateY(-180px); }
+    100% { transform: translateY(-240px); }
+}
+.i-img {
+    height: 50%;
+    margin-top: -250px;
+}
+}

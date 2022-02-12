@@ -1,6 +1,6 @@
 .horContainer {
     width: 78vw;
-    height: 75vh;
+    height: 100vh;
     padding: 0px 10vw;
     display: flex;
     flex-direction: column;
@@ -12,7 +12,7 @@
     height: 450px;
     position: absolute;
     left: 10vw;
-    margin-top: 55px;
+    margin-top: 150px;
     z-index: 1;
     background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(255,255,255,0) 5%, rgb(255, 255, 255) 100%);
 }
@@ -20,9 +20,9 @@
 .fade-effect-scroll.right {
     width: 45px;
     height: 450px;
-    margin-top: 55px;
+    margin-top: 150px;
     position: absolute;
-    right: 10vw;
+    right: 8.7vw;
     z-index: 1;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255,255,255,0) 5%, rgb(255, 255, 255) 100%);
 }
@@ -31,6 +31,7 @@
     text-align: center;
     font-size: 50px;
     font-weight: 600;
+    margin-top: 100px;
 }
 
 
@@ -41,4 +42,10 @@
     font-weight: 500;
     font-size: 15px;
     padding-top: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    .horContainer {
+        height: 70vh;
+    }
 }
