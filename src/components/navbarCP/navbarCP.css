@@ -95,9 +95,9 @@ nav {
     }  
     .nav > .nav-btn {
       display: inline-block;
-      position: absolute;
-      right: 0px;
-      top: 0px;
+      position: fixed;
+      right: 15px;
+      top: 15px;
       background-color: #00828c;
       border-radius: 5px 20px;
       padding: 3px 6px;
@@ -107,6 +107,7 @@ nav {
       width: 20px;
       height: 20px;
       padding: 13px;
+      cursor: crosshair;
     }
     .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
         background-color: #00828c;
@@ -124,7 +125,7 @@ nav {
       width: 50%;
       background-color: #00828c;
       border-radius: 10px 40px;
-      height: 50%;
+      height: 200px;
       transition: all 0.3s ease-in;
       overflow-y: hidden;
       top: 50px;
@@ -138,7 +139,10 @@ nav {
       height: 0px;
     }
     .nav > #nav-check:checked ~ .nav-links {
-      height: calc(60vh - 50px);
+      height: calc(360px - 50px);
       overflow-y: auto;
+      position: fixed;
+      top: 70px;
+      right: 0px;
     }
 }
