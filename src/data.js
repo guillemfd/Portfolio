@@ -7,6 +7,7 @@ export const projects = [
         img: require("./img/Microplastics.jpg"),
         link: "https://guillemfd.github.io/P1---MicroplasticsMacroproblem/",
         github: "https://github.com/guillemfd/P1---MicroplasticsMacroproblem",
+        description: `You are a fish swimming in an ocean full of microplastics, you will inevitably die after 30"... At least, do your best to live as oxygenated as possible by catching plenty of pure O2 bubbles!`,
         techs: require("./img/techs-MM.png"),
     },
     {
@@ -16,6 +17,7 @@ export const projects = [
         img: require("./img/Pick6Pics.jpg"),
         link: "https://pick-6-pics.herokuapp.com/",
         github: "https://github.com/guillemfd/P2---pick_6_pics",
+        description: "Pick 6 pics!, one from each continent. Here we are using the unsplash API, a huge and free photo database. First you will be requested to SignUp or LogIn. Then you can click on a continent, pick your favorite pic of each one and see all them together in your profile.",
         techs: require("./img/techs-Pick6Pics.png"),
     },
     {
@@ -25,6 +27,7 @@ export const projects = [
         img: require("./img/swapp.jpg"),
         link: "https://www.linkedin.com/in/guillemfd/",
         github: "https://github.com/IronhackFinalProject/swapp-project",
+        description: "Join the community and start swapping your items with other users. Upload your products, put others in your favorites list, sort them by categories and negotiate with other users.",
         techs: require("./img/techs-swapp.png"),
     },
     {
@@ -34,8 +37,8 @@ export const projects = [
         img: require("./img/TV2C.jpg"),
         link: "https://www.linkedin.com/in/guillemfd/",
         github: "https://github.com/guillemfd/TV2C",
+        description: `Sort movies & TV Series by plenty of preloaded searches, create personalised lists, update your "To See List" or just look for new movies and check all its data. Special thanks to TMDB API!`,
         techs: require("./img/techs-TV2C.png"),
-
     },
     {
         id: 5,
@@ -44,6 +47,7 @@ export const projects = [
         img: require("./img/portfoli.jpg"),
         link: "https://www.guillemfd.com/",
         github: "https://github.com/guillemfd/Portfolio",
+        description: "To get to know me a little better", 
         techs: require("./img/techs-portfolio.png"),
     },
 ]

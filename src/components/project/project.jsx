@@ -1,7 +1,7 @@
 import './project.css'
 import githubLogo from '../../img/github_icon.png'
 
-const Project = ({ img, link, title, tagline, github, techs}) => {
+const Project = ({ img, link, title, tagline, github, techs, description}) => {
 
 
     return (
@@ -11,7 +11,8 @@ const Project = ({ img, link, title, tagline, github, techs}) => {
                     <div className='p-dot1'></div>
                     <div className='p-dot2'></div>
                     <div className='p-dot3'></div>
-                    <p className='p-check'><span style={{fontWeight: 'bold'}}>{title}</span> <br></br> <span style={{fontStyle: 'italic', fontSize: '13px'}}>{tagline}</span></p>
+                    <p className='p-check'><span style={{fontWeight: 'bold'}}>{title}</span></p>
+                    {/* <p className='p-check'><span style={{fontWeight: 'bold'}}>{title}</span> <br></br> <span style={{fontStyle: 'italic', fontSize: '13px'}}>{tagline}</span></p> */}
                 </div>
                 <a href={link} target="_blank" rel="noreferrer" >
                     <img src={img} alt="projectIMG" className="p-img" />
@@ -24,6 +25,10 @@ const Project = ({ img, link, title, tagline, github, techs}) => {
                             className="githubLogo" />
                     </button>
                 </a>
+            </div>
+            <div className='p-desc-wrap'>
+                <p className='p-disc'>💾</p>
+                <p className='p-description'>{description}</p>
             </div>
             <p className='p-techs-text'>Languages & Frameworks || Libraries & Tools</p>
             <img src={techs} alt="techsIMG" className="p-techs" />

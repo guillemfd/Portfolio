@@ -18,7 +18,7 @@
 
 .p-header {
     height: 50px;
-    background-color: rgb(243, 242, 242);
+    background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     position: sticky;
@@ -63,7 +63,7 @@
 
 .p-check{
     padding-left: 30px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .p-button {
@@ -91,8 +91,25 @@
     /* justify-content: center; */
 }
 
+.p-desc-wrap {
+    display: flex;
+    justify-content: center;
+
+}
+
+.p-disc {
+    margin-left: 25px;
+}
+
+.p-description {
+    font-style: italic;
+}
+
 .p-techs-text {
-    margin-top: -10px;
+    margin-top: 15px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
 }
 
 .c-response {
