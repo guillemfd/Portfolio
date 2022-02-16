@@ -1,5 +1,6 @@
 import './project.css'
 import githubLogo from '../../img/github_icon.png'
+import { Link } from 'react-router-dom'
 
 const Project = ({ img, link, title, tagline, github, techs, description}) => {
 

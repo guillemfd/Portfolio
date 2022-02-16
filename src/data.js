@@ -67,7 +67,7 @@ export const galleries = [
     },
     {
         id: 3,
-        title: "Home in Barcelona (outdoors & convenience areas)",
+        title: "Home in Barcelona (convenience areas)",
         img: require("./img/GalleryTwo/outdoors/O- (11).jpg"),
         link: "/GalleryThree",
     },

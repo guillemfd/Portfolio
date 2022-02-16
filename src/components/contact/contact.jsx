@@ -33,8 +33,8 @@ const Contact = () => {
     return (
         <div className="c" id="Contact">
             <div className="pl-texts">
-                <h1 className="pl-title">How can I help you?</h1>
-                <p className="pl-desc">
+                <h1 className="c-title">How can I help you?</h1>
+                <p className="c-desc">
                     Don't be shy and contact me!
                         <img
                             src={pencil}
@@ -45,7 +45,6 @@ const Contact = () => {
             <div className="c-wrapper">
             
                 <div className="c-left">
-                    <div className="c-info">
                         <div className="c-info-item">
                             <img
                             src={mail}
@@ -91,7 +90,6 @@ const Contact = () => {
                             className="c-icon" />
                             Vilanova i la Geltrú (Barcelona)
                         </div>
-                    </div>
                 </div>
                 <div className='c-right'>
 

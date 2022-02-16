@@ -22,7 +22,6 @@ import img18 from '../../../img/GalleryOne/MiniGeensen-18.jpg'
 import img19 from '../../../img/GalleryOne/MiniGeensen-19.jpg'
 import img20 from '../../../img/GalleryOne/MiniGeensen-20.jpg'
 import img21 from '../../../img/GalleryOne/MiniGeensen-21.jpg'
-import Contact from '../../../components/contact/contact'
 
 
 const GalleryOne = () => {
@@ -145,7 +144,6 @@ const GalleryOne = () => {
               )
           })}
         </div>
-        <Contact />
     </>        
   );
 };

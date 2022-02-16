@@ -2,6 +2,7 @@ import './gallery.css'
 import aperture1 from '../../img/GalleryOne/aperture1.png'
 import aperture2 from '../../img/GalleryOne/aperture2.png'
 import aperture3 from '../../img/GalleryOne/aperture3.png'
+import { Link } from 'react-router-dom'
 
 
 const Gallery = ({ img, link, title }) => {
@@ -16,10 +17,12 @@ const Gallery = ({ img, link, title }) => {
                     <img  src={aperture1} alt="Img2" className="pG-dot2" />
                     <p className='pG-check'><span style={{fontWeight: 'bold'}}>{title}</span></p>
                 </div>
-                <a href={link} rel="noreferrer" >
+                {/* <a href={link} rel="noreferrer" > */}
                     {/* <img  src={encuadre} alt="Img2" className="pG-img2" /> */}
-                    <img src={img} alt="Img" className="pG-img" />
-                </a>
+                    <Link to={link} >
+                        <img src={img} alt="Cover_Img" className="pG-img" />
+                    </Link>
+                {/* </a> */}
             </div>
         </div>
     )
