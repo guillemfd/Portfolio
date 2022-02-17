@@ -63,7 +63,7 @@ export const galleries = [
     {
         id: 2,
         title: "Detached house in Barcelona's heart",
-        description: "Living Area",
+        description: "Living Areas",
         img: require("./img/GalleryTwo/living/L- (9).jpg"),
         link: "/GalleryTwo",
     },
@@ -77,24 +77,16 @@ export const galleries = [
     {
         id: 4,
         title: "Single-family house in the outskirts",
-        description: "Stately & surrounding natural greenery.",
+        description: "Stately & natural greenery surroundings.",
         img: require("./img/GalleryFour/GalleryFour-3.jpg"),
         link: "/GalleryFour",
     },
     {
         id: 5,
-        img: "https://payload.cargocollective.com/1/3/108763/1398170/_MG_8543.png",
-        link: "https://cargocollective.com/guillemfd/malawi-postes-de-sol",
-    },
-    {
-        id: 6,
-        img: "https://payload.cargocollective.com/1/3/108763/1397744/_MG_6883.jpg",
-        link: "https://cargocollective.com/guillemfd/malawi-miscelania",
-    },
-    {
-        id: 7,
-        img: "https://payload.cargocollective.com/1/3/108763/1398275/IMG_3961.JPG",
-        link: "https://cargocollective.com/guillemfd/escenes",
+        title: "Real-estate agency offices",
+        description: "Stylish office, stylish materials.",
+        img: require("./img/GalleryFive/GalleryFive-11.jpg"),
+        link: "/GalleryFive",
     },
 ]
 

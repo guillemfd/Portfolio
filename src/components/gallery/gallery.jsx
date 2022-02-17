@@ -5,7 +5,7 @@ import aperture3 from '../../img/GalleryOne/aperture3.png'
 import { Link } from 'react-router-dom'
 
 
-const Gallery = ({ img, link, title }) => {
+const Gallery = ({ img, link, title, description }) => {
 
 
     return (
@@ -15,7 +15,10 @@ const Gallery = ({ img, link, title }) => {
                     <img  src={aperture3} alt="Img2" className="pG-dot1" />
                     <img  src={aperture2} alt="Img2" className="pG-dot2" />
                     <img  src={aperture1} alt="Img2" className="pG-dot2" />
-                    <p className='pG-check'><span style={{fontWeight: 'bold'}}>{title}</span></p>
+                    <div className='pG-desc-wrap'>
+                        <p className='pG-check'><span style={{fontWeight: 'bold'}}>{title}</span></p>
+                        <p className='pG-description'>{description}</p>
+                    </div>
                 </div>
                 {/* <a href={link} rel="noreferrer" > */}
                     {/* <img  src={encuadre} alt="Img2" className="pG-img2" /> */}

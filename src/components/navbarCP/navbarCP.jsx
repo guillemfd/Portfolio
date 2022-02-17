@@ -8,7 +8,7 @@ const NavbarCP = () => {
   return (
       <div>
         <HashLink                 
-            to="/" 
+            to="/#Intro" 
             activeClass="active"
             spy={true} 
             smooth={true}

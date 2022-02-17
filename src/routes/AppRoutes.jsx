@@ -4,6 +4,7 @@ import GalleryFour from '../pages/galleries/galleryFour/galleryFour'
 import GalleryOne from '../pages/galleries/galleryOne/galleryOne'
 import GalleryThree from '../pages/galleries/galleryThree/galleryThree'
 import GalleryTwo from '../pages/galleries/galleryTwo/galleryTwo'
+import GalleryFive from '../pages/galleries/galleyFive/galleryFive'
 import HomePage from '../pages/HomePage/HomePage'
 
 
@@ -18,6 +19,7 @@ function AppRoutes() {
             <Route path="/GalleryTwo" element={<GalleryTwo />} />
             <Route path="/GalleryThree" element={<GalleryThree />} />
             <Route path="/GalleryFour" element={<GalleryFour />} />
+            <Route path="/GalleryFive" element={<GalleryFive />} />
 
             <Route path="/*" element={<Page404 />} />
         </Routes>

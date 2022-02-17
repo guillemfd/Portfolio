@@ -61,6 +61,30 @@
         -moz-column-width: 100%;
         column-width: 100%;
     }
+
+
+    /* .modal.open{
+        visibility: hidden;
+        opacity: 0;
+        background-color: rgba(0, 0, 255, 0);
+    } */
+
+    /* .closeCross {
+        visibility: hidden;
+    } */
+
+    /* .modal{
+        visibility: hidden;
+    }
+
+    .open{
+        visibility: hidden;
+        opacity: 0;
+    } */
+
+    /* .modalImg {
+        visibility: hidden;
+    } */
 }
 
 /* modal */
