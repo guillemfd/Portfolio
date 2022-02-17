@@ -57,12 +57,14 @@
 .p-img {
     width: 100%;
     min-height: 250px;
-    transition: all 10s ease;
     margin-top: 0px;
+    opacity: 0.8;
+    transition: transform 10s ease, opacity 1s;
 }
 
 .p-img:hover {
     transform: translateY(-40%);
+    opacity: 1;
 }
 
 .p-check{
