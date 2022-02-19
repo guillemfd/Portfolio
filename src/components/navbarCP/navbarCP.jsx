@@ -1,6 +1,6 @@
 import { HashLink } from 'react-router-hash-link';
 import "./navbarCP.css";
-import GW from '../../img/GW.png'
+import GW from '../../img/G.png'
 import resume from '../../img/Resume_GuillemFerrer.pdf'
 
 const NavbarCP = () => {
@@ -80,7 +80,7 @@ const NavbarCP = () => {
                 <a 
                     href={resume} 
                     download="Resume_GuillemFerrer"
-                    className="Resume_button">
+                    className="new-links">
                     Resume
                 </a>
             </div>    

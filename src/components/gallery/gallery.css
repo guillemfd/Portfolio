@@ -85,7 +85,7 @@
 
 @media screen and (max-width: 880px) {
     .pG {
-        height: 280px;
+        height: 240px;
     }
 
     .pG-card {
@@ -96,7 +96,7 @@
     }
 
     .pG-description {
-        font-size: 12px;
+        font-size: 10px;
     }
 
 }
