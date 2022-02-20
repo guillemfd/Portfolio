@@ -47,7 +47,7 @@ export const projects = [
         img: require("./img/portfoli.jpg"),
         link: "https://www.guillemfd.com/",
         github: "https://github.com/guillemfd/Portfolio",
-        description: "To get to know me a little better", 
+        description: "To get to know me a little better!", 
         techs: require("./img/techs-portfolio.png"),
     },
 ]

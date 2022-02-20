@@ -1,14 +1,14 @@
 * {
-  margin: 0;
+  margin: 0px;
   font-family: 'Sora', sans-serif;
   padding: 0px;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */

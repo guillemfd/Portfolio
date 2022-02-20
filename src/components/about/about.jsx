@@ -22,10 +22,10 @@ const About = () => {
             </div>
             <div className="a-right">
                 <h1 className="R-title">About Me</h1>
-                <img 
+                {/* <img 
                         src={ROCKET} 
                         alt='ROCKET' 
-                        className='icon' />
+                        className='icon' /> */}
                 <p className="a-desc">
                 &emsp;&emsp;With a Bachelor's Degree in Design and recently graduated in Web Development. I am a multi-disciplinary person; I have always worked in my passions so I've been specialised in different fields <i>(Web Development, Project Management, Photography, 3D Printing and even Veterinary Nursing!)</i>. I love when a project mixes <strong>technic, creative and challenging skills</strong>, so this is why I am landing into web development.
                 </p>

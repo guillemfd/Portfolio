@@ -17,7 +17,8 @@
 
 .a-right {
     flex: 1;
-    /* background-color: rgb(255, 51, 0); */
+    background-color: #b4e3e4,
+    ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,7 +46,7 @@
 .a-img {
     height: 80%;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 0px 80px;
 }
 
 .logo {

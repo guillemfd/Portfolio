@@ -30,7 +30,7 @@ const NavbarCP = () => {
                 <span></span>
                 </label>
             </div>
-            
+
             <div className="nav-links">
                 <HashLink                 
                         to="/#About" 
@@ -41,6 +41,7 @@ const NavbarCP = () => {
                         >
                     About
                 </HashLink>
+
                 <HashLink                 
                     to="/#ProjectsList" 
                     activeClass="active"

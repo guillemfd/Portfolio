@@ -36,10 +36,10 @@ const Contact = () => {
                 <h1 className="c-title">How can I help you?</h1>
                 <p className="c-desc">
                     Don't be shy and contact me!
-                        <img
+                        {/* <img
                             src={pencil}
                             alt="e-mail"
-                            className="c-icon" />
+                            className="c-icon" /> */}
                 </p>
             </div>
             <div className="c-wrapper">
