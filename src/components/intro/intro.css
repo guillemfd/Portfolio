@@ -66,6 +66,7 @@
 .i-title-wrapper {
     height: 100%;
     animation: move 10s ease-in-out infinite alternate;
+    animation-delay: 1s;
 }
 
 @keyframes move {

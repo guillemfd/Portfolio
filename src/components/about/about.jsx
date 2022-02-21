@@ -27,7 +27,7 @@ const About = () => {
                         alt='ROCKET' 
                         className='icon' /> */}
                 <p className="a-desc">
-                &emsp;&emsp;With a Bachelor's Degree in Design and recently graduated in Web Development. I am a multi-disciplinary person; I have always worked in my passions so I've been specialised in different fields <i>(Web Development, Project Management, Photography, 3D Printing and even Veterinary Nursing!)</i>. I love when a project mixes <strong>technic, creative and challenging skills</strong>, so this is why I am landing into web development.
+                &emsp;&emsp;With a Bachelor's Degree in Design and recently graduated in Web Development, I'm a multi-disciplinary person. Throughout my career, I've been lucky enough to develop my passions in a professional way, therefore specialising in different fields such as <i>Web Development, Project Management, Photography, 3D Printing (and even Veterinary Nursing!)</i>. I've come to realise that  I love when a project mixes <strong>technical, creative and challenging skills</strong>, so this is why I've landed into web development.
                 </p>
                 <p className="a-end">Great at tech and focused in <strong>Frontend Development</strong>.</p>
 
