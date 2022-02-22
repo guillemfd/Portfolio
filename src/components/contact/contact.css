@@ -41,7 +41,7 @@
 .c-info-item {
     display: flex;
     align-items: center;
-    margin: 50px 20px 20px 20px;
+    margin: 30px 20px 20px 20px;
     font-weight: 300;
     width: 80%;
     color: rgb(255, 255, 255);
@@ -51,8 +51,8 @@
     color: rgb(255, 255, 255);
 }
 .c-icon {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     margin-right: 20px;
 }
 

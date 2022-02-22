@@ -4,6 +4,7 @@ import pc from '../../img/githubW.png'
 import cam from '../../img/instagramW.png'
 import phone from '../../img/telephoneW.png'
 import address from '../../img/locationW.png'
+import linkedin from '../../img/linkedinW.png'
 import pencil from '../../img/pencil-dynamic-color.png'
 import { useRef, useState } from 'react'
 import emailjs from 'emailjs-com'
@@ -54,11 +55,27 @@ const Contact = () => {
                         </div>
                         <div className="c-info-item">
                             <img
+                            src={linkedin}
+                            alt="linkedin"
+                            className="c-icon" />
+                            <a 
+                            href="https://www.linkedin.com/in/guillemfd/"
+                            target="_blank"
+                            rel="noreferrer"
+                            download="Resume_GuillemFerrer"
+                            className='c-link'>
+                            linkedin.com/guillemfd
+                            </a>
+                        </div>
+                        <div className="c-info-item">
+                            <img
                             src={pc}
                             alt="e-mail"
                             className="c-icon" />
                             <a 
-                            href="https://github.com/guillemfd" 
+                            href="https://github.com/guillemfd"
+                            target="_blank"
+                            rel="noreferrer"
                             download="Resume_GuillemFerrer"
                             className='c-link'>
                             github.com/guillemfd
@@ -70,7 +87,9 @@ const Contact = () => {
                             alt="e-mail"
                             className="c-icon" />
                             <a 
-                            href="https://www.instagram.com/guillemfdphoto/" 
+                            href="https://www.instagram.com/guillemfdphoto/"
+                            target="_blank"
+                            rel="noreferrer"
                             download="Resume_GuillemFerrer"
                             className='c-link'>
                             instagram.com/guillemfdphoto
@@ -97,7 +116,7 @@ const Contact = () => {
                     <input type="text" placeholder='Name' name="user_name" />
                     <input type="text" placeholder='Subject' name="user_subject" />
                     <input type="text" placeholder='Email' name="user_email" />
-                    <textarea rows={5} placeholder="Message" name="message"/>
+                    <textarea rows={6} placeholder="Message" name="message"/>
                     <button className='c-button'>Send request</button>
                     {done && 
                     <p className='c-response'>Your email has been seccessfully sent!</p>}
