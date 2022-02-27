@@ -35,7 +35,7 @@ export const projects = [
         title: "TV2C",
         tagline: "Search movies&series and make your lists",
         img: require("./img/TV2C.jpg"),
-        link: "https://www.linkedin.com/in/guillemfd/",
+        link: "https://tv2c.herokuapp.com/",
         github: "https://github.com/guillemfd/TV2C",
         description: `Sort movies & TV Series by plenty of preloaded searches, create personalised lists, or just look for new movies and check all its data. Special thanks to TMDB API!`,
         techs: require("./img/techs-TV2C.png"),
