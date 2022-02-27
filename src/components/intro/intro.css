@@ -80,7 +80,7 @@
     height: 50px;
     font-size: 30px;
     font-weight: bold;
-    color: #D62E32;
+    color: #00838ce8;
     display: flex;
     align-items: center;
 }
@@ -135,7 +135,7 @@
 }
 
 .arrows path {
-	stroke: CORAL;
+	stroke: #00838ce8;
 	fill: transparent;
 	stroke-width: 1px;	
 	animation: arrow 2s infinite;
@@ -207,7 +207,7 @@
         height: 60px;
         font-size: 30px;
         font-weight: bold;
-        color: #D62E32;
+        color: #00838ce8;
         display: flex;
         align-items: center;
     }
@@ -219,7 +219,7 @@
     }
 
     .i-left {
-    max-height: 40vh;
+    max-height: 50vh;
     }
 
     .i-right {

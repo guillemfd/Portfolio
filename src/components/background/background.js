@@ -68,10 +68,10 @@ const Background = () => {
                 ]
               },
               links: {
-                color: "#808080",
+                color: "#000000",
                 distance: 150,
                 enable: true,
-                opacity: 0.1,
+                opacity: 0.2,
                 width: 1,
               },
               collisions: {

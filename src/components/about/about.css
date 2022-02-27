@@ -69,6 +69,7 @@
 
 @media screen and (max-width: 880px) {
     .a {
+      margin-top: 100px;
       flex-direction: column;
       text-align: center;
     }
