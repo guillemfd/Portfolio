@@ -22,8 +22,8 @@ const Intro = () => {
                             <div className='i-title-item'>Web Developer</div>
                             <div className='i-title-item'>Designer</div>
                             <div className='i-title-item'>Photographer</div>
-                            <div className='i-title-item'>Project Manager</div>
-                            <div className='i-title-item'>3D Printer</div>
+                            <div className='i-title-item'>Product Manager</div>
+                            {/* <div className='i-title-item'>3D Printer</div> */}
                         </div>
                     </div>
                     {/* <p className='i-desc'>
