@@ -69,7 +69,7 @@ const Background = () => {
               },
               links: {
                 color: "#000000",
-                distance: 150,
+                distance: 200,
                 enable: true,
                 opacity: 0.2,
                 width: 1,
@@ -90,7 +90,7 @@ const Background = () => {
                   enable: true,
                   area: 800,
                 },
-                value: 15,
+                value: 5,
               },
               opacity: {
                 value: 1,
