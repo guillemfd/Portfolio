@@ -4,7 +4,7 @@ import IRONHACK from '../../img/IRONHACK-logo.png'
 import ELISAVA from '../../img/ELISAVA-logo.png'
 import SOUTHAMPTON from '../../img/Southampton-logo.png'
 import google from '../../img/Google.png'
-import ROCKET from '../../img/rocket.png'
+// import ROCKET from '../../img/rocket.png'
 
 
 
@@ -28,9 +28,9 @@ const About = () => {
                         alt='ROCKET' 
                         className='icon' /> */}
                 <p className="a-desc">
-                &emsp;&emsp;With a Bachelor's Degree in Design and recently graduated in Web Development, I'm a multi-disciplinary person. Throughout my career, I've been lucky enough to develop my passions in a professional way, therefore specialising in different fields such as <i>Web Development, Project Management, Photography, 3D Printing</i>. I love when a project mixes <strong>technical, creative and challenging skills</strong>, so this is why I've landed into web development.
+                &emsp;&emsp;With a Bachelor's Degree in Design and recently graduated in Web Development, I'm a multi-disciplinary person. Throughout my career, I've been lucky enough to develop my passions in a professional way, therefore specialising in different fields. I love when a project mixes <strong>technical, creative and challenging skills</strong>, so this is why I've landed into web development.
                 </p><br></br>
-                <p className="a-desc">&emsp;&emsp;With experience as a designer, photographer and project manager,and training as a fullstack developer and UX/UI, I’m looking to bring all these skills in an exciting project.</p>
+                <p className="a-desc">&emsp;&emsp;Experienced designer, photographer and project manager, and trained as a fullstack developer and UX/UI designer, I’m looking to bring all these skills in an exciting project.</p>
 
                 <div className='school-logos'>
                     <a 
